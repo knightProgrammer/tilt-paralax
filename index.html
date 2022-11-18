@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="./redragon-seeklogo.com.png" alt="" srcset="">
+        <h3>H120</h3>
+        <div class="box">
+            <div class="img">
+                <img src="./headphone3.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="button">
+            <p>Buy now</p>
+        </div>     
+    </div>
+    <div class="container">
+        <img class="logo" src="./redragon-seeklogo.com.png" alt="" srcset="">
+        <h3>H110</h3>
+        <div class="box">
+            <div class="img">
+                <img src="./kindpng_1222186.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="button">
+            <p>Buy now</p>
+        </div>     
+    </div>
+    <div class="container">
+        <img class="logo" src="./redragon-seeklogo.com.png" alt="" srcset="">
+        <h3>H140</h3>
+        <div class="box">
+            <div class="img">
+                <img src="./headphone2.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="button">
+            <p>Buy now</p>
+        </div>     
+    </div>
+
+
+
+    
+    <script src="./vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".container"), {
+            max: 25,
+            perspective: 600,
+        });
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            perspective: 700,
+            scale: 1.17,
+        });
+
+    </script>
+</body>
+
+</html>
